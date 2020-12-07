@@ -1,0 +1,4 @@
+
+# md				/tmp	mfs     -s=30m,rw	0 0
+# md				/var	mfs	    -s=30m,rw	0 0
+192.168.1.8:/usr/home/james/tftp/uboot-oct/       /         nfs      ro        0    0

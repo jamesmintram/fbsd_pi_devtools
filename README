@@ -1,0 +1,28 @@
+## Onetime Config
+- NFS exports
+- Rootfs base folder
+
+## Per project config
+- env.sh
+- boot.scr
+
+## Bootstrap
+
+Once configured, run: 
+
+    sudo ./bootstrap.sh
+
+and grab a covfefe
+
+
+## Build
+
+    ./build.sh
+    sudo ./deploy.sh
+
+## Running
+
+    sudo dnsmasq -k -C ./dnsmasq.conf
+    sudo screen /dev/ttyU0 115200 # Assuming you are using a USB UART terminal
+
+Boot the pi + it should boot
