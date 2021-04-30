@@ -1,3 +1,14 @@
+##Notes
+
+- loader_custom.efi PR loader_simp.efi?
+How to rebuild the loader?
+What patches are needed for the loader? (This should still be fixed properly)
+
+- boot.scr
+Can we use DNSMASQ as a way to provide a hostname instead of hardcoded IP for host?
+What do the NFS exports look like? How do they fit with the rest of the config?
+
+
 ## Onetime Config
 - NFS exports
 - Rootfs base folder
